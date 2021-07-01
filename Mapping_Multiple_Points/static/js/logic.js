@@ -1,3 +1,11 @@
+// Create the map object with a center and zoom level.
+let map = L.map("mapid", {
+    center: [
+      40.7, -94.5
+    ],
+    zoom: 4
+  });
+
 // Loop through the cities array and create one marker for each city.
 cityData.forEach(function(city) {
     console.log(city)
